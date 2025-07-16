@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de inscrição</title>
+</head>
+
+<body>
+    <h1>Formulário de inscrição</h1>
+    <form action="" method="post">
+        <div>
+            <label for="nome">Nome:</label><br>
+            <input type="text" name="nome" id="nome" required><br><br>
+        </div>
+
+        <div>
+            <label for="email">E-mail:</label><br>
+            <input type="email" name="email" id="email" required><br><br>
+        </div>
+
+        <div>
+            <label for="whatsapp">WhatsApp:</label><br>
+            <input type="tel" name="whatsapp" id="whatsapp"><br><br>
+        </div>
+
+        <div>
+            <label for="">Área de atuação:</label><br>
+            <input type="radio" name="atuacao" id="desenvolvimento" value="dev" required>
+            <label for="desenvolvimento">Desenvolvimento</label>
+
+            <input type="radio" name="atuacao" id="quality" value="qa" required>
+            <label for="quality">Quality Assurance (QA)</label>
+
+            <input type="radio" name="atuacao" id="analiseDados" value="dados" required>
+            <label for="analiseDados">Análise de dados</label>
+
+            <input type="radio" name="atuacao" id="infraestrutura" value="infra" required>
+            <label for="infraestrutura">Infraestutura</label><br><br>
+        </div>
+
+        <div>
+            <label for="">Observações:</label><br>
+            <textarea name="observacao" id="observacao" cols="40" rows="3"
+                placeholder="Deixe aqui suas observações..."></textarea><br><br>
+
+            <input type="checkbox" name="novidades" id="novidades">
+            <label for="novidades">Desejo receber novidades e ofertas por e-mail.</label><br>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
