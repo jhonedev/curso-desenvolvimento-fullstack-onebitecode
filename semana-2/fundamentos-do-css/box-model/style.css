@@ -1,0 +1,18 @@
+.box {
+     background-color: #f64348;
+     border: 2px;
+}
+
+.box {
+     /*margem*/
+     margin-top: 30px; /*margin no topo*/
+     margin-right: 40px; /**margin a direita*/
+     margin-left: 40px; /*margin a esquerda*/
+     margin-bottom: 40px; /*margin em baixo*/
+
+     /*preenhimento*/
+     padding-top: 10px;
+     padding-right: 20px;
+     padding-left: 20px;
+     padding-bottom: 10px;
+}
