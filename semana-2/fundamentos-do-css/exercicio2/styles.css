@@ -6,6 +6,7 @@
 h1 {
     margin-top: 32px;
     margin-bottom: 32px;
+    margin-left: 32px; /*traz o texto da esquerda pra direita*/
 }
 
 li {
