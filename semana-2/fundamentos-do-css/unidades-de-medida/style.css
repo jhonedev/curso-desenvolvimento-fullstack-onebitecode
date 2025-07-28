@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #232323;
+    color: #ffff;
+    padding: 10px;
+}
+
+section {
+    background-color: #ddd;
+    height: 100px;
+}
+
+.box {
+    border: 1px #232323 solid;
+    display: inline-block;
+    font-size: 16px; /*por padrao a maioria dos navegadores ja coloca o tamanho como 16px*/
+    width: 75px;
+}
+
+/*unidade de medida px*/
+.px {
+    height: 10px;
+}
+
+/*unidade de medida rem, onde 1 rem equivale a 16px ou o tamanho que o usário colocou como padrao do tamamnho da fonte*/
+/*Nesse caso aqui 3rem x 16px* = 48px, 3rem equivale a 16px*/
+/*O rem se baseia no elemento raiz*/
+.rem {
+    height: 3rem;
+}
+
+/*Unidade de medida em*/
+/*Varia de acordo com o tamamnho do elemento*/
+.em {
+    font-size: 20px;
+    height: 2em;
+    padding: 1em;
+}
+
+/*unidade de medida %*/
+.prcnt-33 {
+    height: 33%;
+}
+
+.prcnt-66 {
+    height: 66%;
+}
+
+.prcnt-100 {
+    height: 100%;
+}
+
+/*unidade de medida vh viewport height*/
+.vh {
+    height: 30vh;
+}
+
+/*unidade de medida vw viewport width*/
+.vw {
+    width: 50vw;
+}
