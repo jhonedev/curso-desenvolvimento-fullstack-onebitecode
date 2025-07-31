@@ -1,0 +1,40 @@
+/*seletor :nth-child() O seletor :nth-child(n) escolhe o elemento que está na posição "n" dentro do seu pai (começando a contar do 1º filho), 
+mas só funciona se o elemento na posição for do mesmo tipo que o que você colocou antes do :. */
+li {
+    width: fit-content;
+}
+
+li:nth-child(2) {
+    color: red;
+}
+
+li:nth-child(2n -1) {
+    color: aqua;
+}
+
+li:first-child {
+    color: aquamarine;
+}
+
+li:last-child {
+    color: blue;
+}
+
+li:not(:first-child) {
+    color: brown;
+}
+
+li:hover {
+    background-color: #5a5959;
+    color: #fff;
+}
+
+/*pseudo-elemento   -> ::before e ::after */
+
+li::before {
+    content: "(antes)"; 
+}
+
+li::after {
+    content: "(depois)";
+}
